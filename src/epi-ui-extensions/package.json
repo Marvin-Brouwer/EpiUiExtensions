@@ -1,0 +1,33 @@
+{
+  "name": "epi-ui-extensions",
+  "version": "1.0.0",
+  "description": "wrapper function for creating custom episerver cms editor components",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "@types/dojo": "^1.9.43",
+    "@types/node": "^18.15.7",
+    "rollup-plugin-amd": "^4.0.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.2.1"
+  },
+  "scripts": {
+    "dev": "pnpm build --mode development --watch",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marvin-Brouwer/EpiUiExtensions.git"
+  },
+  "keywords": [
+    "episerver"
+  ],
+  "author": "marvin brouwer",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Marvin-Brouwer/EpiUiExtensions/issues"
+  },
+  "homepage": "https://github.com/Marvin-Brouwer/EpiUiExtensions#readme",
+  "volta": {
+    "node": "20.10.0"
+  }
+}
