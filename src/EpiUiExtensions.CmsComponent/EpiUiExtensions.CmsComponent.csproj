@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <Company>Marvin Brouwer</Company>
+        <Copyright>Marvin Brouwer</Copyright>
+        <Version /> <!-- Version will be replaced by release pipeline -->
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="EPiServer.CMS.AspNet" Version="11.20.14" />
+        <PackageReference Include="EPiServer.CMS.UI.Core" Version="11.36.9" />
+        <PackageReference Include="EPiServer.Commerce.Core" Version="13.32.3" />
+        <PackageReference Include="EPiServer.ContentDeliveryApi.Core" Version="2.19.0" />
+        <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+        <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Polyfill" Version="1.4.0">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="System.Security.Principal.Windows" Version="4.7.0" />
+    </ItemGroup>
+
+</Project>
